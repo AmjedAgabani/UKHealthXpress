@@ -2,7 +2,7 @@ html, body{
     margin: 0;
     padding: 0;
 }
-.title{
+.title {
     font-size: 90px;
     font-family: Raleway,Arial,sans-serif;
     text-align: center;
@@ -29,7 +29,7 @@ li a {
     color: white;
     text-align: center;
     padding: 10px 16px;
-    margin: 0 80px;
+    /*margin: 0 80px;*/
     text-decoration: none;
     border-left: 1px solid #777777;
     border-right: 1px solid #777777;
@@ -49,4 +49,23 @@ li a:hover {
     text-align: center;
     background-color: #333;
     font-size: 0;
+}
+
+#page-wrap {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #E7E3D8;
+    height: 900px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Poiret One", Arial,sans-serif;
+    padding-top: 15px;
+}
+
+.content {
+    padding: 0 20px;
+    font-family: Raleway, Arial,sans-serif;
 }
