@@ -59,7 +59,7 @@ li a:hover {
     font-family: Raleway, Arial, sans-serif;
 }
 
-#page-wrap {
+.page-wrap {
     width: 800px;
     margin: 0 auto;
     background-color: #E7E3D8;
