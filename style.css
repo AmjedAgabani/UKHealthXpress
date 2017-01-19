@@ -4,7 +4,7 @@ html, body{
 }
 .title {
     font-size: 90px;
-    font-family: Raleway,Arial,sans-serif;
+    font-family: Raleway, Arial, sans-serif;
     text-align: center;
     color: white;
     background-color: #1365B2;
@@ -33,7 +33,7 @@ li a {
     text-decoration: none;
     border-left: 1px solid #777777;
     border-right: 1px solid #777777;
-    font-family: Raleway,Arial,sans-serif;
+    font-family: Raleway, Arial, sans-serif;
 }
 
 li a:hover {
@@ -61,11 +61,29 @@ li a:hover {
 .subtitle {
     text-align: center;
     font-size: 50px;
-    font-family: "Poiret One", Arial,sans-serif;
+    font-family: "Poiret One", Arial, sans-serif;
     padding-top: 15px;
 }
 
 .content {
     padding: 0 20px;
     font-family: Raleway, Arial,sans-serif;
+}
+
+.appointmentbutton{
+    background-color: #333;
+    font-family: "Poiret One", Arial, sans-serif;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1.30p;
+    padding: 16px 40px;
+    margin-top: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.appbuttonbox{
+    text-align: center;
+    position: relative;
+    top: 50px;
 }
