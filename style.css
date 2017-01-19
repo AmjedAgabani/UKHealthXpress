@@ -51,11 +51,19 @@ li a:hover {
     font-size: 0;
 }
 
+.footer {
+    background-color: #333;
+    padding: 13px;
+    font-size: 10px;
+    color: white;
+    font-family: Raleway, Arial, sans-serif;
+}
+
 #page-wrap {
     width: 800px;
     margin: 0 auto;
     background-color: #E7E3D8;
-    height: 900px;
+    height: 825px;
 }
 
 .subtitle {
@@ -70,7 +78,7 @@ li a:hover {
     font-family: Raleway, Arial,sans-serif;
 }
 
-.appointmentbutton{
+.appointmentbutton {
     background-color: #333;
     font-family: "Poiret One", Arial, sans-serif;
     color: #fff;
@@ -82,8 +90,12 @@ li a:hover {
     text-transform: uppercase;
 }
 
-.appbuttonbox{
+.appbuttonbox {
     text-align: center;
     position: relative;
     top: 50px;
+}
+
+.appbuttonbox :hover {
+    background-color: #1365B2;
 }
