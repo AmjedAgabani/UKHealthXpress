@@ -1,4 +1,6 @@
-html {font-size: 1em;}
+html {
+    font-size: 1em;
+}
 
 body {
     background-color: white;
@@ -8,7 +10,9 @@ body {
     color: #333;
 }
 
-p {margin-bottom: 1.3em;}
+p {
+    margin-bottom: 1.3em;
+}
 
 h1, h2, h3, h4 {
     margin: 1.414em 0 0.5em;
@@ -21,25 +25,34 @@ h1 {
     font-size: 3.998em;
 }
 
-h2 {font-size: 2.827em;}
+h2 {
+    font-size: 2.827em;
+}
 
-h3 {font-size: 1.999em;}
+h3 {
+    font-size: 1.999em;
+}
 
-h4 {font-size: 1.414em;}
+h4 {
+    font-size: 1.414em;
+}
 
-small, .font_small {font-size: 0.707em;}
+small, .font_small {
+    font-size: 0.707em;
+}
 
-
-html, body{
+html, body {
     margin: 0;
     padding: 0;
 }
-.title {
-    font-size: 90px;
+
+.title h1{
+    font-size: 5em;
     font-family: Raleway, Arial, sans-serif;
     text-align: center;
     color: white;
     background-color: #1365B2;
+    margin: 0;
 }
 
 ul {
@@ -100,22 +113,22 @@ li a:hover {
 
 .subtitle {
     text-align: center;
-    font-size: 50px;
+    font-size: 1em;
     font-family: "Poiret One", Arial, sans-serif;
     padding-top: 15px;
 }
 
 .content {
     padding: 0 20px;
-    font-family: Raleway, Arial,sans-serif;
+    font-family: Raleway, Arial, sans-serif;
 }
 
 .appointmentbutton {
     background-color: #333;
     font-family: "Poiret One", Arial, sans-serif;
     color: #fff;
-    font-weight: 600;
-    letter-spacing: 1.30p;
+    font-weight: 500;
+    letter-spacing: 1.50px;
     padding: 16px 40px;
     margin-top: 50px;
     text-decoration: none;
@@ -128,6 +141,38 @@ li a:hover {
     top: 50px;
 }
 
-.appbuttonbox :hover {
+.appointmentbutton:hover {
     background-color: #1365B2;
+}
+
+.column {
+    width: 33%;
+    text-align: center;
+    float: left;
+}
+
+.column-parting {
+    padding: 0 20px;
+}
+
+.morebutton {
+    background-color: white;
+    font-family: Raleway, Arial, sans-serif;
+    color: black;
+    font-weight: 300;
+    letter-spacing: 1.50px;
+    padding: 12px 26px;
+    margin-top: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid #333;
+}
+
+.morebutton:hover {
+    background-color: #1365B2;
+    color: #ffffff;
+}
+
+.column h1, .column h2, .column h3, .column h4 {
+    margin-top: 0;
 }
