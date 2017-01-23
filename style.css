@@ -61,7 +61,7 @@ html, body {
     background-color: #1365B2;
 }
 
-ul {
+.navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -71,11 +71,11 @@ ul {
     font-size: 16px;
 }
 
-li {
+.navbar li {
     float: left;
 }
 
-li a {
+.navbar li a {
     display: block;
     color: white;
     text-align: center;
@@ -87,7 +87,7 @@ li a {
     font-family: Raleway, Arial, sans-serif;
 }
 
-li a:hover {
+.navbar li a:hover {
     background-color: #4A4346;
 }
 
@@ -114,10 +114,10 @@ li a:hover {
     width: 960px;
     margin: 0 auto;
     background-color: #E7E3D8;
-    height: 825px;
+    height: 1000px;
 }
 
-.subtitle {
+.pagetitle {
     text-align: center;
     font-size: 1em;
     font-family: "Poiret One", Arial, sans-serif;
@@ -181,4 +181,35 @@ li a:hover {
 
 .column h1, .column h2, .column h3, .column h4 {
     margin-top: 0;
+}
+
+h2 {
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 24px;
+}
+
+.optionlist li {
+    font-size: 20px;
+}
+
+.optionlist p {
+    font-family: Raleway, Arial, sans-serif;
+}
+
+.address {
+    float: left;
+    padding: 0px 100px 0px 50px;
+}
+span{
+    color: #1365B2;
+    font-weight: 600;
+}
+
+.hours {
+    padding-left: 50px;
+}
+
+#msgbox {
+    resize:none;
+    overflow: auto;
 }
