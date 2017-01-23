@@ -208,7 +208,8 @@ h2 {
     float: left;
     padding: 0px 100px 0px 50px;
 }
-span{
+
+span {
     color: #1365B2;
     font-weight: 600;
 }
@@ -217,7 +218,7 @@ span{
     padding-left: 50px;
 }
 
-.hours li{
+.hours li {
     font-weight: 600;
 }
 
@@ -264,5 +265,5 @@ input[type=submit] {
 
 input[type=submit]:hover {
     color: white;
-    background-color: #1365B2; 
+    background-color: #1365B2;
 }
