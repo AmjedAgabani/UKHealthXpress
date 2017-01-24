@@ -140,6 +140,12 @@ body {
     font-family: Raleway, Arial, sans-serif;
 }
 
+.pagetitle {
+    padding: 60px;
+    background-image: url(http://www.performacide.com/cache/com_zoo/images/06hospital_262522d88ff2113852ce974a323df3a9.jpg);
+    background-size: cover;
+}
+
 .page-wrap {
     width: 960px;
     padding: 0px 50px;
