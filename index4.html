@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>UK Health Express</title>
@@ -7,78 +8,85 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:400, 600" rel="stylesheet">
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
-<div class="titlebar">
-    <a class="title" href="index.html">UK Health Express</a>
-</div>
-<div class="navbar">
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="index2.html">Services</a></li>
-        <li><a href="index3.html">Book an Appointment</a></li>
-        <li><a class="active" href="index4.html">Contact Us</a></li>
-    </ul>
-</div>
-<div class="page-wraplarge">
-    <div class="pagetitle">
-        <h1>Looking to get in touch?</h1>
+    <div class="titlebar">
+        <a class="title" href="index.html">UK Health Express</a>
     </div>
-    <div class="content">
-        <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9934.722249271881!2d-0.1246254!3d51.5007292!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb78f2474b9a45aa9!2sBig+Ben!5e0!3m2!1sen!2suk!4v1485169601478"
-                    width="500" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
-            <div class="address">
-                <h2>UK Health Express</h2>
-                <p>UK Health Express Centre <br> 13-15 Office Road <br> London <br> W13 37D</p>
-                <span>Telephone:</span> <strong>XXXX-XXX-XXXX</strong>
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="index2.html" class="dropbutton">Services</a>
+                <div class="dropdown-content">
+                    <a href="#">Service A</a>
+                    <a href="#">Service B</a>
+                    <a href="#">Service C</a>
+                </div>
+                <li><a href="index3.html">Book an Appointment</a></li>
+                <li><a class="active" href="index4.html">Contact Us</a></li>
+        </ul>
+    </div>
+    <div class="page-wraplarge">
+        <div class="pagetitle">
+            <h1>Looking to get in touch?</h1>
+        </div>
+        <div class="content">
+            <div class="location">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9934.722249271881!2d-0.1246254!3d51.5007292!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb78f2474b9a45aa9!2sBig+Ben!5e0!3m2!1sen!2suk!4v1485169601478" width="600" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <div class="address">
+                    <h2>UK Health Express</h2>
+                    <p>UK Health Express Centre <br> 13-15 Office Road <br> London <br> W13 37D</p>
+                    <span>Telephone:</span> <strong>XXXX-XXX-XXXX</strong>
+                </div>
+            </div>
+            <div class="hours">
+                <h2>Opening Hours</h2>
+                <ul>
+                    <li>Monday : 09:00 - 16:00</li>
+                    <li>Tuesday : 09:00 - 16:00</li>
+                    <li>Wednesday : 09:00 - 16:00</li>
+                    <li>Thursday : 09:00 - 16:00</li>
+                    <li>Friday : 09:00 - 16:00</li>
+                    <li>Saturday : 12:00 - 15:00</li>
+                    <li>Sunday : CLOSED</li>
+                </ul>
+            </div>
+            <br>
+            <div class="messageform">
+                <h2>Send us a message</h2>
+                <form action="#">
+                    <label for="firstname">First Name</label>
+                    <br>
+                    <input type="text" id="firstname" name="firstname">
+                    <br>
+                    <label for="lastname">Last Name</label>
+                    <br>
+                    <input type="text" id="lastname" name="lastname">
+                    <br>
+                    <label for="mail">Email Address</label>
+                    <br>
+                    <input type="email" id="mail" name="mail">
+                    <br>
+                    <label for="phone-number">Phone Number</label>
+                    <br>
+                    <input type="tel" id="phone-number" name="phone-number">
+                    <br>
+                    <label for="message">Message</label>
+                    <br>
+                    <textarea id="message" name="message"></textarea>
+                    <input type="submit" id="submit" value="Submit">
+                </form>
             </div>
         </div>
-        <div class="hours">
-            <h2>Opening Hours</h2>
-            <ul>
-                <li>Monday : 09:00 - 16:00</li>
-                <li>Tuesday : 09:00 - 16:00</li>
-                <li>Wednesday : 09:00 - 16:00</li>
-                <li>Thursday : 09:00 - 16:00</li>
-                <li>Friday : 09:00 - 16:00</li>
-                <li>Saturday : 12:00 - 15:00</li>
-                <li>Sunday : CLOSED</li>
-            </ul>
-        </div>
-        <br>
-        <div class="messageform">
-            <h2>Send us a message</h2>
-            <form action="#">
-                <label for="firstname">First Name</label>
-                <br>
-                <input type="text" id="firstname" name="firstname">
-                <br>
-                <label for="lastname">Last Name</label>
-                <br>
-                <input type="text" id="lastname" name="lastname">
-                <br>
-                <label for="mail">Email Address</label>
-                <br>
-                <input type="email" id="mail" name="mail">
-                <br>
-                <label for="phone-number">Phone Number</label>
-                <br>
-                <input type="tel" id="phone-number" name="phone-number">
-                <br>
-                <label for="message">Message</label>
-                <br>
-                <textarea id="message" name="message"></textarea>
-                <input type="submit" id="submit" value="Submit">
-            </form>
+    </div>
+    <div class="footerbox">
+        <div class="footer">
+            <p>Copyright © 2017 UK Health Express Ltd. All rights reserved.</p>
         </div>
     </div>
-</div>
-<div class="footerbox">
-    <div class="footer">
-        <p>Copyright © 2017 UK Health Express Ltd. All rights reserved.</p>
-    </div>
-</div>
 </body>
+
 </html>
-
-
