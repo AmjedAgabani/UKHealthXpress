@@ -74,8 +74,8 @@ body {
 }
 
 .phoneinfo {
-    position: relative;
-    left: 650px;
+    position: absolute;
+    left: 1500px;
     bottom: 20px;
 }
 
