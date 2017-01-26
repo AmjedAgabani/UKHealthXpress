@@ -132,6 +132,19 @@ body {
     font-size: 0;
 }
 
+.pagetitle {
+    background-image: url(http://www.performacide.com/cache/com_zoo/images/06hospital_262522d88ff2113852ce974a323df3a9.jpg);
+    background-size: cover;
+    height: 250px;
+}
+
+.pagetitle h1{
+    width: 100%;
+    background-color: rgba(255,255,255,0.8);
+    position: relative;
+    top: 174px;
+}
+
 .footer {
     background-color: #333;
     padding: 13px;
@@ -140,18 +153,12 @@ body {
     font-family: Raleway, Arial, sans-serif;
 }
 
-/*.pagetitle {
-    padding: 60px;
-    background-image: url(http://www.performacide.com/cache/com_zoo/images/06hospital_262522d88ff2113852ce974a323df3a9.jpg);
-    background-size: cover;*/
-}
-
 .page-wrap {
     width: 960px;
     padding: 0px 50px;
     margin: 0 auto;
     background-color: #E7E3D8;
-    height: 825px;
+    height: 950px;
 }
 
 .page-wraplarge {
@@ -159,7 +166,7 @@ body {
     padding: 0px 50px;
     margin: 0 auto;
     background-color: #E7E3D8;
-    height: 1500px;
+    height: 1550px;
 }
 
 .pagetitle {
