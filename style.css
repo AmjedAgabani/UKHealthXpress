@@ -62,8 +62,15 @@ body {
 }
 
 .titlebar {
+    height: 200px;
     text-align: center;
     background-color: white;
+    position: relative;
+}
+
+.title{
+    position: relative;
+    top: 25px;
 }
 
 .navbar ul {
