@@ -230,10 +230,15 @@ body {
 }
 
 .columnhalf {
-    width: 50%;
+    width: 45%;
     text-align: center;
     float: left;
     padding-bottom: 50px;
+}
+
+.info-graphic-image {
+    height: 75px;
+    width: 75px;
 }
 
 .column-parting {
